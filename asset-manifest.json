@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-four-card-feature/static/css/main.68ee9ac6.css",
+    "main.js": "/react-four-card-feature/static/js/main.a43c2a78.js",
+    "static/media/icon-karma.svg": "/react-four-card-feature/static/media/icon-karma.24e0debeb1e51eaa14e295270e33df54.svg",
+    "static/media/icon-supervisor.svg": "/react-four-card-feature/static/media/icon-supervisor.2dd10a2df2ddca34f77ca6a2065c6be2.svg",
+    "static/media/icon-team-builder.svg": "/react-four-card-feature/static/media/icon-team-builder.b885fb580a3cb78c9ad249750dd65a01.svg",
+    "static/media/icon-calculator.svg": "/react-four-card-feature/static/media/icon-calculator.21bc9adc97d084a64aedb386f1e35c0d.svg",
+    "index.html": "/react-four-card-feature/index.html",
+    "main.68ee9ac6.css.map": "/react-four-card-feature/static/css/main.68ee9ac6.css.map",
+    "main.a43c2a78.js.map": "/react-four-card-feature/static/js/main.a43c2a78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68ee9ac6.css",
+    "static/js/main.a43c2a78.js"
+  ]
+}
