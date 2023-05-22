@@ -1,13 +1,90 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,700;1,400;1,800&display=swap");
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --light-gray: hsl(0, 0%, 98%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Poppins";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: var(--light-gray);
+  overflow: auto;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page-header {
+  margin: 0.1em;
+  margin-top: 3em;
+}
+
+#page-header h2 {
+  font-weight: 200;
+  font-size: 2em;
+  color: var(--grayish-blue);
+  margin: 0;
+  /* text-align: center; */
+  /* margin-top: 10px; */
+}
+
+#page-sub {
+  margin: 0.1em;
+}
+
+#page-sub h2 {
+  font-weight: 600;
+  font-size: 2em;
+  margin: 0em;
+}
+
+#page-p {
+  /* width: 30%; */
+  max-width: 30em;
+  text-align: center;
+}
+
+#page-p p {
+  font-weight: 200;
+  font-size: 1em;
+  color: var(--grayish-blue);
+}
+
+.card-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 450px) {
+  #page-header h2,
+  #page-sub h2 {
+    font-size: 1.7em;
+  }
+  .compound-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-holder {
+    flex-direction: column;
+  }
+
+  #page-p {
+    width: 90%;
+  }
 }

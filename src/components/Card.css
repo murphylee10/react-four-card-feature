@@ -1,0 +1,59 @@
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --light-gray: hsl(0, 0%, 98%);
+}
+
+.red {
+  border-top: 5px solid var(--red);
+}
+
+.green {
+  border-top: 5px solid var(--cyan);
+}
+
+.blue {
+  border-top: 5px solid var(--blue);
+}
+
+.yellow {
+  border-top: 5px solid var(--orange);
+}
+
+.card {
+  background-color: white;
+  width: 22rem;
+  padding: 2.3rem 2rem 2.3rem 2rem;
+  border-radius: 2%;
+  margin: 2.2rem 1.1rem;
+  box-shadow: 2px 8px 30px hsla(229, 6%, 66%, 0.4);
+}
+
+.header h2 {
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.subheader p {
+  color: var(--grayish-blue);
+  font-size: 1em;
+  margin-bottom: 3.5rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: 72%;
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
+  }
+}
