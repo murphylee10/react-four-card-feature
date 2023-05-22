@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+# Frontend Mentor Four Card Feature Section Solution (ReactJS)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Screenshot
 
-## Available Scripts
+![Screenshot 2023-05-22 at 5 26 05 PM](https://github.com/murphylee10/react-four-card-feature/assets/62623991/ce9c9466-8d83-48f5-8643-387a6120f202)
+
+## View Live Site
+
+Site Link: https://murphylee10.github.io/react-four-card-feature/
+
+## General Usage of Repo
 
 In the project directory, you can run:
 
